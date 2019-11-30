@@ -8,3 +8,14 @@ spec:
   containers:
   - name: myapp
     image: httpd
+
+
+    apiVersion: v1
+kind: Pod
+metadata:
+  name: 01-sample
+spec:
+  containers:
+  - name: myapp
+    image: httpd 
+
