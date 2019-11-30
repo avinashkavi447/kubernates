@@ -10,7 +10,7 @@ spec:
     image: httpd
   - name: centos
     image: centos
-    command: ["sleep"]  
+    command: ["sleep","1000"]  
 
 
 apiVersion: v1
