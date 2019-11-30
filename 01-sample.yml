@@ -8,6 +8,7 @@ spec:
   containers:
   - name: myapp
     image: httpd
+    
 
 
 apiVersion: v1
