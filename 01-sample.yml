@@ -8,7 +8,9 @@ spec:
   containers:
   - name: myapp
     image: httpd
-  - name: myapp2  
+  - name: centos
+    image: centos
+      
 
 
 apiVersion: v1
