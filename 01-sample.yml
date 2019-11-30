@@ -8,9 +8,4 @@ spec:
   containers:
   - name: myapp
     image: httpd
-    resources:
-      limits:
-        memory: "128Mi"
-        cpu: "500m"
-    ports:
-      - containerPort: 80
+  
