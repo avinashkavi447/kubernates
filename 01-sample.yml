@@ -6,4 +6,3 @@ spec:
   containers:
   - name: myapp
     image: httpd 
-
